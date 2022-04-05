@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/mycss.css">
+</head>
+<body>
+    <div class="main">
+        <form action="" method="post" name="loginForm">
+            <h2>Register Form</h2>
+            <div class="container">
+                <label for="">Họ và Tên</label>
+                <input type="hidden" placeholder="Enter Họ và tên" name="index">
+                <input type="text" placeholder="Enter Họ và tên" name="hovaten">
+                <small class="error" id="ho_va_ten_error"></small>
+                <label for="">Tài khoản</label>
+                <input type="text" placeholder="Enter Username" name="uname">
+                <small class="error" id="username_error"></small>
+        
+                <label for="">Mật khẩu</label>
+                <input type="password" placeholder="Enter password" name="pass">
+                <small class="error" id="password_error"></small>
+                <button type="submit">Đăng ký</button>
+                <button type="button" id="btnupdate">Uơdate</button>
+                
+            </div>
+            
+    </div>
+    <div class="comeback">
+        <a href="form-login.html">Về trang đăng nhập</a>
+    </div>
+    <div class="comeback1">
+        <table style="width: 100%; " border="1" cellspacing="0">
+            <h3>Danh sách tài khoản</h3>
+        <tr>
+            <th>Họ Tên</th>
+            <th>Username</th>
+            <th>mật khẩu</th>
+            <th></th>
+        </tr>
+        <tbody id="main_body">
+            <tr>
+                <th>
+
+                </th>
+                
+            
+            </tr>
+        </tbody>
+        </table>
+        
+    </div>
+    <script src="js/check_register.js"></script>
+</body>
+</html>
