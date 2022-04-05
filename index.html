@@ -20,6 +20,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="fonts/fontawesome-free-6.1.1-web/js/all.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
 
     <link rel="stylesheet" href="index.css">
 </head>
@@ -28,7 +33,8 @@
     <header id="home">
         <ul class="nav justify-content-center">
             <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#home">HOME
+                <a class="nav-link active disabled" aria-current="page" href="#home">HOME
+
               </a>
             </li>
             <li class="nav-item">
@@ -38,11 +44,11 @@
                 <a class="nav-link" href="#resume">RESUME</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link disabled" href="#work">WORK</a>
+                <a class="nav-link " href="#work">WORK</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link " href="#testimonials"> 
-                 TESTIMONIALS
+                TESTIMONIALS
                 </a>
             </li>
             <li class="nav-item">
@@ -64,7 +70,7 @@
             </h3>
             <hr>
             <div class="icdown">
-                <a class="smoothscroll" href="about"><i class="fa-solid fa-down"></i></a>
+                <a class="smoothscroll" href="#about"><i class="fa-solid fa-arrow-down"></i></a>
             </div>
         </div>
     </header>
@@ -153,7 +159,7 @@
                 </div>
                 <div class="ninecolumnmain-col2">
                     <div class="twelvecolumn">
-                        <h3 class="content2">
+                        <h3 class="content2" style="position: relative; left:-371px; right: 371px;">
                             Awesome Design Studio
                         </h3>
                         <p class="info">
@@ -183,14 +189,14 @@
                     </div>
                 </div>
                 <div class="rowskills">
-                    <div class="threecolumnheader-col">
+                    <div class="threecolumnheader-col" style="padding-top: 52px;">
                         <h1>
                             SKILLS
                             <div class="borderh1">
                             </div>
                         </h1>
                     </div>
-                    <p class="inforskills">
+                    <p class="inforskills" style=" height: 150px;position: relative; ">
                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
                         sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
                     </p>
@@ -223,7 +229,7 @@
                     </div>
                 </div>
     </section>
-    <section id="portfolio">
+    <section id="work">
         <div class="twelvecolumnscollapsed">
             <h1>CHECK OUT SOME OF MY WORKS</h1>
             <div class="container">
@@ -258,6 +264,112 @@
             </div>
         </div>
     </section>
+    <section id="call-to-action">
+        <div class="row">
+            <div class="twocolumenheader-col">
+                <i class="fa-solid fa-earth-americas" style="color: white;font-size: 60px;position: relative;margin-top: 8px;"></i>
+            </div>
+            <div class="sevencolumn">
+                <h2>Unde Omnis Iste</h2>
+                <p>
+                    <span class="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                    </span>
+                    <span class="lead">accusantium doloremque laudantium, totam rem aperiam, eaque</span>
+                    <span class="lead">ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae.</span>
+                </p>
+            </div>
+        </div>
+    </section>
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel" style="bottom:30px;" id="testimonials">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="1000">
+                <img src="image/81f207905a3e333f980c663a8dc67a69.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <p class="same" style="color:white;height:200px; width:700px; font-size: 22px; margin-left: 150px;bottom: 100%;">Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work. And the only way to do great work is to love what you do. If you haven't found it yet, keep looking.
+                        Don't settle. As with all matters of the heart, you'll know when you find it.</p>
+                    <cite style="color:white;">-Steve Jobs</cite>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="image/istockphoto-1158886201-612x612.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <p class="same">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate
+                        cursus a sit amet mauris.
+                    </p>
+                    <cite>Mr.Adobe</cite>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    </div>
+    <section id="contact" style="position: relative; bottom:30px; background-color: #191919;">
+        <div class="twocolumenheader-col" style="background-color: #191919;">
+            <i class="fa-solid fa-envelope" style="color:white; font-size: 80px;"></i>
+        </div>
+        <p class="lead" style=" font-size:18px; color:#636363;height: 300px; width: 810px;position: relative; margin-left: 20%;bottom: 7%; ">
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
+            sit aspernatur aut odit aut fugit.
+        </p>
+        <fieldset>
+            <label>
+                Name
+                <span class="required" style="color: blue;">*</span>
+                <input type="text"></input>
+            <label>
+                <label>
+                    Email
+                    <span class="required" style="color: blue;">*</span>
+                    <input type="text"></input>
+                <label>
+                    <label>
+                        Subject
+                        <span class="required" style="color: blue;">*</span>
+                        <input type="text"></input>
+                    <label>
+                        <label>
+                            Message
+                            <span class="required" style="color: blue;">*</span>
+                            <textarea></textarea>
+                        <label>
+            <button type="submit">SUBMIT</button>
+        </fieldset>
+    </section>
+    <footer>
+     <div id="backtop">
+        <i class="fa-solid fa-arrow-up"></i>
+     </div>
+    </footer>
 </body>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<link rel="stysheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+<script>
+    $(document).ready(function() {
+        $(window).scroll(function() {
+          if ($(this).scrollTop()){
+              $('#backtop').fadeIn();
+          }
+          else{
+              $('#backtop').fadeOut();
+          }
+        });
+         $('#backtop').click(function(){
+             $('html, body').animate({
+                 scrollTop:0
+             }, 1000);
+        });
+    });
+</script>
 
 </html>

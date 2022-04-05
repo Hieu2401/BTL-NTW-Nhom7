@@ -34,6 +34,24 @@ header {
     padding-top: 50px;
 }
 
+.icdown {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    bottom: 40px;
+    right: 20px;
+    display: flex;
+    position: relative;
+    margin-left: 50%;
+    top: 75%;
+}
+
 h1 {
     font-family: 'Libre Baskerville', serif;
     font-family: 'Open Sans', sans-serif;
@@ -329,8 +347,8 @@ span {
     width: 65%;
     background-color: #FFFFFF;
     position: relative;
-    left: 21.85%;
-    bottom: 7%;
+    left: 25%;
+    margin-bottom: 10%;
 }
 
 .bars {
@@ -346,6 +364,8 @@ span {
     bottom: 30%;
     box-sizing: border-box;
     transform: none;
+    margin-top: 200px;
+    margin-left: 30px;
 }
 
 .bars h2 {
@@ -368,7 +388,7 @@ span {
     background-color: #313131;
 }
 
-#portfolio {
+#work {
     height: 724px;
     width: 1330px;
     background-color: #EBEEEE;
@@ -402,4 +422,118 @@ span {
     position: relative;
     right: 10px;
     margin-left: 10px;
+}
+
+#call-to-action {
+    font-size: 15px;
+    line-height: 30px;
+    height: 276px;
+    width: 1330px;
+    background-color: #212121;
+    padding: 60px 0 48px 0;
+    position: relative;
+    bottom: 30px;
+}
+
+.twocolumenheader-col {
+    height: 72px;
+    width: 170px;
+    background-color: #212121;
+    position: relative;
+    left: 12%;
+}
+
+.sevencolumn {
+    height: 162px;
+    width: 595px;
+    background-color: #212121;
+    position: relative;
+    margin-left: 162px;
+}
+
+.lead {
+    font-size: 16px;
+    line-height: 30px;
+    color: #D8D8D8;
+}
+
+#contact {
+    height: 1248px;
+    width: 1330px;
+    background-color: #191919;
+}
+
+fieldset {
+    height: 816px;
+    width: 550px;
+    background-color: #191919;
+    position: relative;
+    left: 268px;
+    bottom: 25%;
+}
+
+label {
+    font-size: 15px;
+    height: 24px;
+    width: 100px;
+    position: relative;
+    color: white;
+    float: left;
+}
+
+.required {
+    position: relative;
+    top: 4px;
+}
+
+input {
+    height: 60px;
+    width: 416px;
+    position: relative;
+    left: 100px;
+    bottom: 25px;
+    background-color: #373233;
+}
+
+textarea {
+    height: 396px;
+    width: 416px;
+    position: relative;
+    left: 100px;
+    background-color: #373233;
+}
+
+button {
+    height: 54px;
+    width: 150px;
+    position: relative;
+    margin-left: 100px;
+    background-color: #0D0D0D;
+    color: white;
+}
+
+footer {
+    background-color: #303030;
+    height: 157px;
+    width: 1330px;
+    position: relative;
+    bottom: 30px;
+}
+
+#backtop {
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    bottom: 40px;
+    right: 20px;
+    display: flex;
+    position: relative;
+    margin-left: 50%;
+    bottom: 18%;
 }
