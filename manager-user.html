@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+      
+</head>
+
+<body>
+   <div class="container">
+    <form action="" method="post" name="loginForm">
+       <div class="form-group">
+        <label for="">Họ và Tên</label>
+        <input type="hidden" placeholder="Enter Họ và tên" name="index">
+        <input type="text" placeholder="Enter Họ và tên" name="hovaten">
+        <small class="error" id="ho_va_ten_error"></small>
+       </div>
+       <div class="form-group">
+        <label for="">Tài khoản</label>
+        <input type="hidden" placeholder="Enter Username" name="index1">
+        <input type="text" placeholder="Enter Username" name="uname">
+        <small class="error" id="username_error"></small>
+       </div>
+       <div class="form-group">
+        <label for="">Mật khẩu</label>
+        <input type="hidden" placeholder="Enter password" name="index2">
+        <input type="password" placeholder="Enter password" name="pass">
+        <small class="error" id="password_error"></small>
+       </div>
+       <button type="submit">ADD</button>
+       <button type="button" id="btnupdate">Update</button>
+    </form>
+    <div class="comeback">
+      <a href="from.html">Về trang đăng nhập</a>
+  </div>
+  <div class="comeback1">
+     <table class="table"  style="width: 100%; " border="1" cellspacing="0">
+        <thead>
+         <h3>Danh sách tài khoản</h3>
+         <tr>
+             <th>Họ Tên</th>
+             <th>Username</th>
+             <th>mật khẩu</th>
+             <th>Xóa</th>
+             <th>Sửa</th>
+         </tr>
+        </thead>
+        <tbody id="main_body">
+           <tr>
+              <td scope="row"></td>
+              <td></td>
+              <td></td>
+           </tr>
+           <tr>
+              <td scope="row"></td>
+              <td></td>
+              <td></td>
+           </tr>
+        </tbody>
+     </table>
+  </div>
+   </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="js/manager-user.js"></script>
+</body>
+
+</html>
