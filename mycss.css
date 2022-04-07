@@ -1,0 +1,18 @@
+body{
+    
+    background-image:url(/img/backgr.jpg) ;
+    background-size:cover ;
+    color: white;
+}
+p{
+    
+}
+nav{
+    
+   
+    background: rgba(0,0,0,0.4);
+    
+}
+.btn-color{
+    background-color: rgba(0,0,0,0.4);
+}
