@@ -1,15 +1,59 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 1330px;
+}
+
 header {
+    position: sticky !important;
     font-family: 'Libre Baskerville', serif;
     font-family: 'Open Sans', sans-serif;
-    height: 651px;
+    height: 654px;
     width: 1330px;
     background-image: url(image/header-background.jpg);
     font-style: unset;
+    bottom: 10px;
+    padding-bottom: 10px;
+    background-color: #191919;
 }
 
-.nav-link {
-    font-family: 'Open Sans', sans-serif;
-    color: white;
+nav {
+    text-transform: uppercase;
+    font-size: 12px;
+    align-items: center;
+    text-align: center;
+    background-color: #191919;
+    position: fixed;
+    width: 100%;
+    margin-right: 0;
+    display: block;
+    top: 0;
+    content: normal;
+    float: left;
+}
+
+ul {
+    float: left;
+    list-style: none;
+    margin-right: 30px;
+    position: relative;
+    margin-left: 250px;
+    color: #11ABB0;
+}
+
+li {
+    font-size: 12px;
+    position: relative;
+    margin-left: 20px;
+    float: left;
+    color: blue;
+}
+
+.smoothscroll {
+    font-size: 12px;
+    text-align: center;
 }
 
 .row-banner {
@@ -48,8 +92,7 @@ header {
     right: 20px;
     display: flex;
     position: relative;
-    margin-left: 50%;
-    top: 75%;
+    margin-left: 48%;
 }
 
 h1 {
@@ -87,6 +130,13 @@ h3 {
     margin: 0 153px 0 153px;
     display: block;
     color: grey;
+}
+
+.content2 {
+    position: relative;
+    width: 100px;
+    right: 100%;
+    text-align: left;
 }
 
 span {
@@ -157,37 +207,38 @@ section {
     transform: none;
     transition: all 0s ease 0s;
     background-color: #2B2B2B;
+    padding-bottom: 10px;
 }
 
 .threecolumn {
     font-size: 14px;
     line-height: 30px;
-    height: 120px;
-    width: 120px;
-    padding: 0 20px 0 20px;
+    height: 150px;
+    width: 200px;
     position: relative;
-    padding-left: 150px;
+    left: 45px;
+    top: 35px;
 }
 
 .profile-pic {
     border-radius: 50%;
+    height: 120px;
     position: relative;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
+    left: 30px;
+    top: 15px;
 }
 
 .ninecolumnmain-col {
     height: 534px;
-    width: 765px;
+    width: 725px;
     padding: 0px 51px 0px 20px;
     position: relative;
-    margin-left: 150px;
+    margin-left: 230px;
 }
 
 h2 {
     color: white;
+    font-size: 28px;
 }
 
 p {
@@ -227,7 +278,7 @@ span {
     font-size: 15px;
     line-height: 30px;
     background-color: #FFFFFF;
-    height: 2000px;
+    height: 2100px;
     width: 1330px;
     overflow: hidden;
 }
@@ -337,7 +388,7 @@ span {
     background-color: #FFFFFF;
     position: relative;
     bottom: 23px;
-    top: 15px
+    top: 5%;
 }
 
 .inforskills {
@@ -348,7 +399,7 @@ span {
     background-color: #FFFFFF;
     position: relative;
     left: 25%;
-    margin-bottom: 10%;
+    margin-top: 5.5%;
 }
 
 .bars {
@@ -361,10 +412,9 @@ span {
     display: block;
     position: relative;
     left: 22%;
-    bottom: 30%;
+    bottom: 20%;
     box-sizing: border-box;
     transform: none;
-    margin-top: 200px;
     margin-left: 30px;
 }
 
@@ -413,6 +463,24 @@ span {
     color: #95A3A3;
 }
 
+.row1 {
+    background-color: #EBEEEE;
+    height: 215px;
+    width: 1075px;
+    margin-left: 80px;
+    padding-left: 40px;
+}
+
+.overplay {
+    height: 215px;
+    width: 235px;
+    float: left;
+    text-align: left;
+    justify-items: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
 .col {
     height: 215px;
     max-width: 250px;
@@ -427,7 +495,7 @@ span {
 #call-to-action {
     font-size: 15px;
     line-height: 30px;
-    height: 276px;
+    height: 250px;
     width: 1330px;
     background-color: #212121;
     padding: 60px 0 48px 0;
@@ -448,11 +516,12 @@ span {
     width: 595px;
     background-color: #212121;
     position: relative;
-    margin-left: 162px;
+    left: 63%;
+    bottom: 60px;
 }
 
 .lead {
-    font-size: 16px;
+    font-size: 17px;
     line-height: 30px;
     color: #D8D8D8;
 }
@@ -469,7 +538,9 @@ fieldset {
     background-color: #191919;
     position: relative;
     left: 268px;
-    bottom: 25%;
+    bottom: 35%;
+    border: #0D0D0D;
+    top: -8%;
 }
 
 label {
@@ -479,6 +550,8 @@ label {
     position: relative;
     color: white;
     float: left;
+    margin: 0;
+    margin-top: 10px;
 }
 
 .required {
@@ -517,7 +590,7 @@ footer {
     height: 157px;
     width: 1330px;
     position: relative;
-    bottom: 30px;
+    bottom: 40px;
 }
 
 #backtop {
@@ -536,4 +609,19 @@ footer {
     position: relative;
     margin-left: 50%;
     bottom: 18%;
+}
+
+aside {
+    background-color: #191919;
+    height: 624px;
+    width: 340px;
+    position: relative;
+    bottom: 850px;
+    left: 600px;
+}
+
+h4 {
+    font-size: 16px;
+    height: 24px;
+    background-color: #191919;
 }
