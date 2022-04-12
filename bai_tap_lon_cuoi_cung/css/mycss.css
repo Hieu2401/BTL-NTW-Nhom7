@@ -1,0 +1,105 @@
+body{
+    
+    background-image:url(/img/backgr.jpg) ;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    color: white;
+}
+.main-content{
+    
+}
+p{
+    
+}
+nav{
+    background: rgba(0,0,0,0.4);
+}
+.btn-color-cv{
+    background-color: rgba(0,0,0,0.4);
+}
+form{
+    width: 30%;
+   border: none;
+    margin: auto;
+    background-color: rgba(0,0,0,0.4);
+    box-shadow: 5px 5px px 10px #AAA;
+    color: burlywood;
+    border: solid yellowgreen;
+    }
+    .container{
+        padding:  15px;
+    
+    }
+
+    form input{
+        width: 100%;
+        padding: 8px 10px;
+        margin: 10px 0 0 0 ;
+        display: inline-block;
+        box-sizing: border-box;
+        border: none;
+    }
+    .form-input{
+        padding:0 15px;
+        color: white;
+    }
+    label{
+        font-weight: bold;
+      
+        margin-left: 10px;
+        display: block;
+    }
+    button{
+        width: 100%;
+        margin: 15px 0;
+        padding: 10px 10px;
+        background-color: rgb(102, 231, 102);
+        border: none;
+    }
+    button:hover {
+        opacity: 0.8;
+    }
+    /* Add padding to containers */
+    
+    small.error{
+        font-style: italic;
+        color: yellowgreen;
+        
+    }
+    .comeback{
+        padding: 10px;
+        text-align: center;
+    }
+    .comeback1{
+        margin: auto;
+        width: 500px;
+        text-align: center;
+    }
+    .hearder-from{
+        text-align: center;
+        padding: 20px;
+    
+       color: white;
+    }
+    .title-from{
+
+        color: white;
+
+    }
+    .nav-item1{
+       
+    }
+    
+    .nav-item1:hover{
+        border-bottom: solid 2px white;
+    }
+    .btn-color1{
+        color: #AAA;
+    }
+    .btn-color1:hover{
+        color: white;
+       
+    }
+    .item-home{
+        border-bottom: solid 2px aquamarine;
+    }

@@ -1,0 +1,54 @@
+nav{
+    background: rgba(0,0,0,1);
+}
+.title_admin{
+    background: rgba(0,0,0,0.5);
+
+}
+.title-from{
+
+    color: white;
+
+}
+.nav-item1{
+   color: white;
+  
+}
+
+/* .nav-item1:hover{
+    border: solid 2px red;
+} */
+.nav-item3{
+    border-bottom:solid !important;
+    color: aquamarine;
+}
+.btn-color1{
+    color: #AAA;
+}
+.btn-color1:hover{
+    color: white;
+    border: solid 2px;
+}
+input{
+    width: 100%;
+    padding: 10px;
+}
+label{
+    float: left;
+    font-weight: bold;
+}
+form{
+    border-top: solid;
+    padding:20px 0 0 0 ;
+}
+
+table thead tr{
+    border: solid 2.5px ;
+}
+table thead tr th {
+    border: solid 2.5px ;
+}
+
+table  tr td {
+    border: solid 2.5px ;
+}

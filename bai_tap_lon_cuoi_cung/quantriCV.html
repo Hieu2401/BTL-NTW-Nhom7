@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+      <link rel="stylesheet" href="css/css_manager.css">
+      
+</head>
+
+<body>
+   <div class="py-5">
+      <header>
+         <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
+            <div class="container py-2">
+                <a class="navbar-brand" href="HOME.html">SOUTH WIND</a>
+                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                    data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                    aria-label="Toggle navigation"></button>
+                <div class="collapse navbar-collapse " id="collapsibleNavId">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ">
+                        <!-- <li class="nav-item nav-item1 nav-item2  min-menu ">
+                            <a class="nav-link" href="#">ADMINISTRATION <span class="sr-only">(current)</span></a>
+                        </li> -->
+                        <li class="nav-item nav-item1 min-menu mx-2">
+                           <a class="nav-link" href="manager-user.html">UESERS MANAGEMENT<span class="sr-only">(current)</span></a>
+                       </li>
+                       <li class="nav-item nav-item1 nav-item3  min-menu ">
+                        <a class="nav-link" href="quantriCV.html">CV Management <span class="sr-only">(current)</span></a>
+                    </li>
+                    </ul>
+                    <div class="text-right">
+                     <a name="" id="" class="btn btn-default  btn-color1" href="HOME.html" role="button"><i class="fa-solid fa-arrow-left"></i> TO HOME</a>
+                 </div>
+                </div>
+            </div>
+        </nav>
+      </header>
+  </div>
+  <div class="px-5 py-3" style="background-color: aquamarine;">
+   <h5>ADMINISTRATION</h5>
+  </div>
+   <div class="container text-center">
+      <h3>CV Management</h3>
+    <form action="" method="post" name="loginForm">
+       <div class="form-group">
+        <label for="">HỌ VÀ TÊN</label>
+        <input type="hidden" placeholder="Enter Họ và tên" name="index">
+        <input type="text" placeholder="Enter Họ và tên" name="hovaten">
+       </div>
+       <div class="form-group">
+        <label for="">EMAIL</label>
+        <input type="hidden" placeholder="Enter Email" name="index1">
+        <input type="email" placeholder="Enter Email" name="email">
+       </div>
+       <label for="">SỐ ĐIỆN THOẠI</label>
+       <input type="hidden" placeholder="Enter Phone" name="index2">
+       <input type="text" placeholder="Enter Phone" name="phone">
+    
+       <div class="form-group">
+        <label for="" class="pt-2">ĐỊA CHỈ</label>
+        <input type="hidden" placeholder="Enter Address" name="index3">
+        <input type="text" placeholder="Enter Address" name="address">
+ 
+       </div>
+       <button type="submit" class="btn btn-primary">ADD</button>
+       <button type="button" id="btnupdate" class="btn btn-success">Update</button>
+       <button type="button" id="btnupdelete" class="btn btn-danger">DELETE</button>
+    </form>
+    <div class="comeback">
+      <a href="from.html">Về trang đăng nhập</a>
+  </div>
+  <div class="comeback1">
+     <table class="table"  style="width: 100%; " border="1" cellspacing="0">
+        <thead>
+         <h3>Danh sách tài khoản</h3>
+         <tr>
+             <th>Họ Tên</th>
+             <th>Emai</th>
+             <th>Số điện thoại</th>
+             <th>Địa chỉ</th>
+             <th>Xóa</th>
+             <th>Sửa</th>
+         </tr>
+        </thead>
+        <tbody id="main_body">
+           
+        </tbody>
+     </table>
+  </div>
+   </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="js/myss.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+ .overplay img {
+     display: block;
+     height: 215px;
+     width: 215px;
+ }
+ 
+ .overplay:hover {
+     transform: scale(1.1);
+     z-index: 1;
+ }

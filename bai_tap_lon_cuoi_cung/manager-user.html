@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+      <link rel="stylesheet" href="css/css_manager.css">
+</head>
+
+<body>
+   <div class="py-5">
+      <header>
+         <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
+            <div class="container py-2">
+                <a class="navbar-brand" href="HOME.html">SOUTH WIND</a>
+                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
+                    data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                    aria-label="Toggle navigation"></button>
+                <div class="collapse navbar-collapse " id="collapsibleNavId">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ">
+                        <!-- <li class="nav-item nav-item1 min-menu ">
+                            <a class="nav-link" href="#">ADMINISTRATION <span class="sr-only">(current)</span></a>
+                        </li> -->
+                        <li class="nav-item nav-item1 nav-item3  min-menu mx-2">
+                            <a class="nav-link" href="manager-user.html">UESERS MANAGEMENT<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item nav-item1  min-menu ">
+                         <a class="nav-link" href="quantriCV.html">CV Management <span class="sr-only">(current)</span></a>
+                     </li>
+                    </ul>
+                    <div class="text-right">
+                     <a name="" id="" class="btn btn-default  btn-color1" href="HOME.html" role="button"><i class="fa-solid fa-arrow-left"></i> TO HOME</a>
+                 </div>
+                </div>
+            </div>
+        </nav>
+      </header>
+
+  </div>
+<main>
+    <div class="px-5 py-3" style="background-color: aquamarine;">
+        <h5>ADMINISTRATION</h5>
+        </div>
+   <div class="container text-center">
+      <h3>Users Management</h3>
+      
+      <form action="" method="post" name="loginForm" class="my-4">
+         <div class="form-group">
+          <label for="">Họ và Tên</label>
+          <input type="hidden" placeholder="Enter Họ và tên" name="index">
+          <input type="text" placeholder="Enter Họ và tên" name="hovaten">
+          <small class="error" id="ho_va_ten_error"></small>
+         </div>
+         <div class="form-group">
+          <label for="">Tài khoản</label>
+          <input type="hidden" placeholder="Enter Username" name="index1">
+          <input type="text" placeholder="Enter Username" name="uname">
+          <small class="error" id="username_error"></small>
+         </div>
+         <div class="form-group">
+          <label for="">Mật khẩu</label>
+          <input type="hidden" placeholder="Enter password" name="index2">
+          <input type="password" placeholder="Enter password" name="pass">
+          <small class="error" id="password_error"></small>
+         </div>
+         <button type="submit" class="btn btn-primary">ADD</button>
+         <button type="button" id="btnupdate" class="btn btn-success">UPDATE</button>
+         <button type="button" id="btnupdelete" class="btn btn-danger">DELETE</button>
+      </form>
+      <div class="comeback">
+        <a href="from.html">Về trang đăng nhập</a>
+    </div>
+    <div class="comeback1">
+       <table class="table w-100" border="1" cellspacing="0">
+          <thead>
+           <h3>Danh sách tài khoản</h3>
+           <tr>
+               <th>Họ Tên</th>
+               <th>Username</th>
+               <th>mật khẩu</th>
+               <th>Xóa</th>
+               <th>Sửa</th>
+           </tr>
+          </thead>
+          <tbody id="main_body">
+             <tr>
+                <td scope="row"></td>
+                <td></td>
+                <td></td>
+             </tr>
+             <tr>
+                <td scope="row"></td>
+                <td></td>
+                <td></td>
+             </tr>
+          </tbody>
+       </table>
+       
+    </div>
+     </div>
+</main>
+  
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="js/manager-user.js"></script>
+</body>
+
+</html>
