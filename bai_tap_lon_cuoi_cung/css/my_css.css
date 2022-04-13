@@ -297,5 +297,5 @@ label{
 }
 .btn-color1:hover{
     color: white;
-   border: solid;
+   border-bottom: solid;
 }
