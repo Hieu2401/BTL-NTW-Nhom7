@@ -9,8 +9,8 @@ body {
 header {
     background-image: url(images/none);
     font-family: 'Open Sans', sans-serif;
-    height: 654px;
-    width: 1330px;
+     background-repeat:no-repeat ;
+     background-size:cover ;
     background-image: url(images/he);
     font-style: unset;
     bottom: 10px;
