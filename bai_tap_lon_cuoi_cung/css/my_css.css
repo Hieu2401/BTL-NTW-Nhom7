@@ -10,7 +10,7 @@ nav{
 
 }
 #home{
-    background-image: url(/img/header-background.jpg);
+    background-image: url(../img/header-background.jpg);
     background-repeat:no-repeat ;
     background-size:cover ;
     color: gray;
@@ -204,7 +204,7 @@ label{
 
  }
  .modal-hear{
-    background-image: url(/img/quán\ cà\ phê.jpg);
+    background-image: url(../img/quán\ cà\ phê.jpg);
     background-repeat:no-repeat ;
     background-size:cover ;
     height: 200px;
@@ -217,45 +217,45 @@ label{
     color: white;
  }
  .modal-hear1{
-    background-image: url(/img/car22.jpg);
+    background-image: url(../img/car22.jpg);
     background-repeat:no-repeat ;
     background-size:cover ;
     height: 200px;
  }
  .modal-hear2{
-    background-image: url(/img/4367595_Cover_PS4.jpg);
+    background-image: url(../img/4367595_Cover_PS4.jpg);
     background-repeat:no-repeat ;
     background-size:cover ;
     height: 200px;
  }
  .modal-hear3{
-    background-image: url(/img/girl1.jpg);
+    background-image: url(../img/girl1.jpg);
    
     background-repeat:no-repeat ;
     background-size:cover ;
     height: 200px;
  }
  .modal-hear4{
-    background-image: url(/img/pexels-photo-326957.jpg);
+    background-image: url(../img/pexels-photo-326957.jpg);
     background-repeat:no-repeat ;
     background-size:cover ;
     height: 200px;
  }
  .modal-hear5{
-    background-image: url(/img/vieynam.jpg);
+    background-image: url(../img/vieynam.jpg);
     background-repeat:no-repeat ;
     background-size:cover ;
     height: 200px;
  }
  .modal-hear6{
-    background-image: url(/img/thumb-1920-908158.jpg);
+    background-image: url(../img/thumb-1920-908158.jpg);
     background-repeat:no-repeat ;
     background-size:cover ;
     height: 200px;
 
 }
 .modal-hear7{
-    background-image: url(/img/person-holding-camera.jpg);
+    background-image: url(../img/person-holding-camera.jpg);
     background-repeat:no-repeat ;
     background-size:cover ;
     height: 200px;
